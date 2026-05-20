@@ -1,40 +1,78 @@
-NifErp bir Kassa satış sistemini tənzimləyən, hesabatlıq və uzaqdan idarə etmə sistemi olan bir ERP proqramlar toplusudur.
-Məntiq odur ki, proqram hər kəs tərəfindən endirilə bilər. Lakin istifadə üçün lisenziya əldə olunması mühümdür.
-Eyni zamanda proqram təminatının onpremise deyildir. Bizim serverlərjmiz mövcuddur. Bütün məlumatlar bu serverlərimizdə saxlanılacaqdır.
+# NifERP
 
-Proqram təminatlartının siyahısı
+NifERP — kassa satış sistemini tənzimləyən, hesabatlıq və uzaqdan idarəetmə imkanları təqdim edən ERP proqramlar toplusudur.
+
+Sistemin əsas məntiqi ondan ibarətdir ki, proqram təminatları hər kəs tərəfindən endirilə bilər. Lakin sistemdən aktiv istifadə etmək üçün lisenziya əldə olunması vacibdir.
+
+NifERP tam olaraq cloud əsaslı (SaaS) sistemdir və on-premise şəkildə fəaliyyət göstərmir. Bütün məlumatlar NifERP serverlərində saxlanılır və idarə olunur.
+
+---
+
+# Proqram Təminatları
+
 1. NifERP.Cashier
 2. NifERP.Stock
 3. NifERP.Admin
-4. NifERP.Analytcs
+4. NifERP.Analytics
 5. NifERP.Auth
 6. NifERP.Support
 7. NifERP.License
 8. NifERP.View
 
-Anlayışlar
-1. CAM -> (Customer admin manager) proqram təminatını bizdən alan mağaza və ya mağazaların rəhbərləri.
-2. BC -> (Business Cashier) mağazalarda işləyən kassirlər
-3. SAU -> (Super Admin User) sistemi satan sistemi sahibi olan şəxs
-Proqram təminatları barəsində geniş məlumatlar aşağıda əks olunub.
+---
 
-- NifErp.Admin
-__
-Admin proqramı bizim müştərilərə təmin etdiyimiz menecerdir. CAM-lar üçün nəzərdə tutulub
-Bu menecer vasitəsi ilə mağaza sahibləri öz mağaza və kassalarını idarə edə bilərlər.
-Funksionallıqlar:
-    Yeni istifadəçilərin yaradılaması
-    İstifadəçi məlumatların düzəliş edilməsi (həmçinin yeni icazələrin təyini və s.)
-    istifadəçi sistemdən silinməsi
-    Sistemin istifadəsi üçün Yeni lisenziyanın əldə olunması.
-    Mövcud Lisenziyaların yenisi ilə əvəz olunması
-    Analytics proqramından göndərilmiş hesabatlara baxış keçirmək
-    
+# Terminologiya
 
-- NifERP.License
-__
-License proqramı SAU-lar üçün nəzərdə tutulub.
+## CAM (Customer Admin Manager)
 
+Proqram təminatını NifERP-dən alan mağaza və ya mağazalar şəbəkəsinin rəhbərləri.
 
+---
 
+## BC (Business Cashier)
 
+Mağazalarda çalışan kassirlər.
+
+---
+
+## SAU (Super Admin User)
+
+Sistemin sahibi və satışını həyata keçirən əsas idarəçi istifadəçi.
+
+---
+
+# Proqram Təminatları Haqqında
+
+---
+
+# NifERP.Admin
+
+NifERP.Admin proqramı CAM istifadəçiləri üçün nəzərdə tutulmuş idarəetmə panelidir.
+
+Bu panel vasitəsilə mağaza sahibləri öz mağazalarını, kassalarını və istifadəçilərini idarə edə bilirlər.
+
+## Funksionallıqlar
+
+- Yeni istifadəçilərin yaradılması
+- İstifadəçi məlumatlarının redaktə olunması
+- Yeni icazələrin (permissions) təyin olunması
+- İstifadəçilərin sistemdən silinməsi
+- Yeni lisenziyanın əldə olunması
+- Mövcud lisenziyaların yenilənməsi və ya dəyişdirilməsi
+- NifERP.Analytics sistemi tərəfindən göndərilmiş hesabatlara baxış
+
+---
+
+# NifERP.License
+
+NifERP.License proqramı SAU istifadəçiləri üçün nəzərdə tutulmuş lisenziya idarəetmə sistemidir.
+
+Bu sistem vasitəsilə:
+
+- Yeni lisenziyalar yaradılır
+- Müştərilərə lisenziya təyin olunur
+- Lisenziya müddətləri idarə olunur
+- Aktiv və deaktiv lisenziyalar izlənilir
+- Müştəri sistemləri üzərində nəzarət təmin edilir
+
+---
