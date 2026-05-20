@@ -6,3 +6,5 @@ Proqram təminatlartının siyahısı
 3. NifERP.Admin
 4. NifERP.Analytcs
 5. NifERP.Auth
+6. NifERP.Support
+7. NifERP.License
