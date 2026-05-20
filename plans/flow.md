@@ -23,21 +23,11 @@ NifERP tam olaraq cloud əsaslı (SaaS) sistemdir və on-premise şəkildə fəa
 
 # Terminologiya
 
-## CAM (Customer Admin Manager)
-
-Proqram təminatını NifERP-dən alan mağaza və ya mağazalar şəbəkəsinin rəhbərləri.
-
----
-
-## BC (Business Cashier)
-
-Mağazalarda çalışan kassirlər.
-
----
-
-## SAU (Super Admin User)
-
-Sistemin sahibi və satışını həyata keçirən əsas idarəçi istifadəçi.
+| Qısa Yazılış | Açılışı | İzahlı Mətn |
+|---|---|---|
+| CAM | Customer Admin Manager | Proqram təminatını NifERP-dən alan mağaza və ya mağazalar şəbəkəsinin rəhbərləri. |
+| BC | Business Cashier | Mağazalarda çalışan kassirlər. |
+| SAU | Super Admin User | Sistemin sahibi və satışını həyata keçirən əsas idarəçi istifadəçi. |
 
 ---
 
