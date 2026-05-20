@@ -59,10 +59,10 @@ NifERP.License proqramı SAU istifadəçiləri üçün nəzərdə tutulmuş lise
 
 Bu sistem vasitəsilə:
 
-- Yeni lisenziyalar yaradılır
-- Müştərilərə lisenziya təyin olunur
-- Lisenziya müddətləri idarə olunur
-- Aktiv və deaktiv lisenziyalar izlənilir
-- Müştəri sistemləri üzərində nəzarət təmin edilir
+- Satış üçün yeni paketlər yaradılması
+- Paketlərin idarə edilməsi (visible olub olmaması həmçinin)
+- Lisenziya müddətləri idarə olunması
+- Aktiv və deaktiv lisenziyalar izlənilməsi
+- Audit loglar və s.
 
 ---
